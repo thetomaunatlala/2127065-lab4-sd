@@ -5,6 +5,7 @@
       </head>
     <body>
 
+        
         <label for= "country name">Enter the name of a country:</label>
         <input
         type="text"
@@ -12,14 +13,21 @@
         name="country"
         />
 
-        <button type="button">Submit</button>
-    
-        <section id="country-info">Country-Info
-         
-        </section>
+        <button id="myButton">Submit</button>
 
-        <section id="bordering-countries">Bordering-Countries
-         
+        
+        
+        <section id="country-info">Country-Info
+            <p id="country_output"><strong>Country</strong></p>
+            <p id="population_output"><strong>Population</strong></p>
+            <p id="region_output"><strong>Region</strong></p>
+            <p id="flag_output"><strong>Flag</strong></p>
         </section>
+        <section id="bordering-countries">Bordering-Countries
+            <p id="neighbour_output"><strong>Neighbour</strong></p>
+        </section>
+        
+        <script src="script.js"></script>
+
     </body>
 </html>
